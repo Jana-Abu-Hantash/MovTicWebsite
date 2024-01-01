@@ -75,3 +75,7 @@ The MovTic Cinema Website is designed to provide a user-friendly platform for mo
 ### Interactivity and Validation:
 - Enjoy interactive elements such as hover effects on movie posters.
 - The website validates user inputs in the sign-up and login pages to ensure data integrity and security.
+
+  
+© `<Jana-Abu-Hantash>`, `<abuhantash.jana@gmail.com>`, and `<2022>`.
+
