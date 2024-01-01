@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(4, 15, 22);
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-color: rgb(90, 147, 103);
+    color: white; 
+}
+
+.subtitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white; 
+}
+
+.Movie_info {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.Main_text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: rgb(17, 240, 245);
+}
+
+.Main_btn {
+    background-color: rgb(90, 147, 103);
+    font-weight: bold;
+    font-family: Helvetica;
+    color: white;
+}
+
+.Main_btn:hover {
+    background-color: rgb(90, 206, 51);
+    font-weight: bold;
+    color: white;
+}
+
+.movie-info {
+    font-family: Helvetica;
+    color: white;
+}
+
+.vl {
+    border-right: 4px solid white;
+    height: auto;
+}
+
+
+.showtime{
+    background-color: green;
+}
+
+.screen {
+    background-color: #fff;
+
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    height: 90px;
+    width: 93%;
+    margin: 15px;
+    transform: rotateX(-48deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+
