@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(4, 15, 22);
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-color: rgb(90, 147, 103);
+    color: white; 
+}
+
+.subtitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white; 
+}
+
+.Movie_info {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.Main_text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: rgb(17, 240, 245);
+}
+
+.Main_btn {
+    background-color: rgb(90, 147, 103);
+    font-weight: bold;
+    font-family: Helvetica;
+    color: white;
+}
+
+.Main_btn:hover {
+    background-color: rgb(90, 206, 51);
+    font-weight: bold;
+    color: white;
+}
+
+.movie-info {
+    font-family: Helvetica;
+    color: white;
+}
+
+.vl {
+    border-right: 4px solid white;
+    height: auto;
+}
+
+
+.showtime{
+    background-color: green;
+}
+
+/* . {
+    background-color: white;
+    color: black;
+
+    height: 40px;
+    width: 30px;
+    margin: 50px;
+
+    font-size: 20px;
+    text-align: center;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.seat:active {
+    background-color: green;
+    color: white;
+}
+
+.seat:hover {
+    background-color: green;
+    color: white;
+}
+
+.seatcontainer {
+    max-width: 1000px;
+    justify-content: center;
+    text-align: center;
+    perspective: 1000px;
+    margin-bottom: 20px;
+seat
+
+} */
+
+.screen {
+    background-color: #fff;
+
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    height: 90px;
+    width: 93%;
+    margin: 15px;
+    transform: rotateX(-48deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+/* .seatsrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-info{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: bold;
+} */
+
+

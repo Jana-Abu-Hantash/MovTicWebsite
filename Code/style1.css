@@ -1,0 +1,95 @@
+.carousel{
+    margin-top: 5rem;
+}
+
+body{
+    background-color: rgb(4, 15, 22);
+}
+
+.Title{
+    font: Times New Romen;
+    color: white;
+
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+ 
+.movies-container {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+
+    gap: 10rem;
+
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poster .poster-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.poster .poster-text .btn{
+    justify-content: center;
+
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+
+    padding-left: .4rem;
+    padding-right: .4rem;
+
+    font: Times;
+    font-size: large;
+}
+
+
+.poster .poster-text {
+
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+.poster:hover .poster-text {
+
+    background-color: rgba(15, 14, 14, 0.806);
+    font: .1em Times;
+    font-size: large;
+    color: white;
+
+    visibility: visible;
+    opacity: 1;
+
+    /* position: auto; */
+    bottom: auto;
+    right: auto;
+
+    min-width: 228px;
+    max-height: 210px;
+    padding-left: auto;
+
+
+    transform: translateY(-184px);
+    transition: 0.2s all linear;
+
+}
+
+.form-text {
+    font: 1em Times New Roman;
+    color: white;
+}
